@@ -1,0 +1,17 @@
+{
+  "name": "glenmark-ar",
+  "version": "1.0.0",
+  "description": "Glenmark AR Presentation",
+  "scripts": {
+    "start": "http-server . --ssl -c-1 -p 8080",
+    "build": "workbox generateSW workbox-config.js"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "workbox-cli": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
