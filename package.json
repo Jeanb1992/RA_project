@@ -1,19 +1,17 @@
 {
-  "name": "mindar-ar-project",
+  "name": "glenmark-ar",
   "version": "1.0.0",
+  "description": "Glenmark AR Presentation",
   "scripts": {
-    "clean": "rimraf dist",
-    "build": "npm run clean && mkdir dist && robocopy src dist /E",
-    "start": "http-server src/",
-    "dev": "http-server src/"
+    "start": "http-server . --ssl -c-1 -p 8080",
+    "build": "workbox generateSW workbox-config.js"
   },
   "dependencies": {
-    "@capacitor/android": "latest",
-    "@capacitor/core": "latest"
+    "http-server": "^14.1.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "latest",
-    "http-server": "^14.1.1",
-    "rimraf": "^3.0.2"
-  }
+    "workbox-cli": "^7.0.0"
+  },
+  "author": "",
+  "license": "ISC"
 }
