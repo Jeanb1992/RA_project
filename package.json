@@ -14,10 +14,6 @@
   "devDependencies": {
     "workbox-cli": "^7.0.0"
   },
-<<<<<<< HEAD
-  "author": "",
-  "license": "ISC"
-=======
   "author": "Jean Barreto",
   "license": "ISC",
   "main": "sw.js",
@@ -28,6 +24,5 @@
   "bugs": {
     "url": "https://github.com/Jeanb1992/RA_project/issues"
   },
-  "homepage": "https://github.com/Jeanb1992/RA_project#readme"
->>>>>>> 3e9580b1fbf927e7dc61236f4887aaa138e5fd36
+  "homepage": "https://jeanb1992.github.io/RA_project"
 }
