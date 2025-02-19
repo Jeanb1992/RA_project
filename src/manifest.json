@@ -1,9 +1,9 @@
 {
-  "name": "Glenmark AR Presentation",
-  "short_name": "Glenmark AR",
-  "start_url": "./index.html",
+  "name": "GlenmarkRA",
+  "short_name": "GlenmarkRA",
+  "start_url": "/GlenmarkRa/",
   "display": "standalone",
-  "background_color": "#000000",
+  "background_color": "#ffffff",
   "theme_color": "#000000",
   "orientation": "portrait",
   "icons": [
@@ -46,7 +46,8 @@
     {
       "src": "./icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 } 
