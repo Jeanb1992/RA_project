@@ -1,0 +1,19 @@
+{
+  "name": "mindar-ar-project",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir dist && robocopy src dist /E",
+    "start": "http-server src/",
+    "dev": "http-server src/"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest",
+    "http-server": "^14.1.1",
+    "rimraf": "^3.0.2"
+  }
+}
