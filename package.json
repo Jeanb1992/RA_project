@@ -7,11 +7,27 @@
     "build": "workbox generateSW workbox-config.js"
   },
   "dependencies": {
+    "@capacitor/core": "^7.0.1",
+    "@capacitor/ios": "^7.0.1",
     "http-server": "^14.1.1"
   },
   "devDependencies": {
     "workbox-cli": "^7.0.0"
   },
+<<<<<<< HEAD
   "author": "",
   "license": "ISC"
+=======
+  "author": "Jean Barreto",
+  "license": "ISC",
+  "main": "sw.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeanb1992/RA_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jeanb1992/RA_project/issues"
+  },
+  "homepage": "https://github.com/Jeanb1992/RA_project#readme"
+>>>>>>> 3e9580b1fbf927e7dc61236f4887aaa138e5fd36
 }

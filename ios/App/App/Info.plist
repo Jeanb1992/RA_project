@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ... otras configuraciones existentes ... -->
+    <key>NSCameraUsageDescription</key>
+    <string>Se necesita acceso a la cámara para la experiencia de AR</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Se necesita acceso al micrófono para la experiencia de AR</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Se necesita acceso a la galería para guardar capturas de AR</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Se necesita acceso a la galería para cargar imágenes</string>
+    <key>WKAppBoundDomains</key>
+    <array>
+        <string>tudominio.com</string>
+    </array>
+</dict>
+</plist> 

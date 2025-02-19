@@ -1,0 +1,14 @@
+{
+  "appId": "com.tudominio.arapp",
+  "appName": "Presentación AR",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "Permissions": {
+      "camera": "true"
+    }
+  },
+  "server": {
+    "iosScheme": "ionic"
+  }
+} 

@@ -1,0 +1,29 @@
+workflows:
+  ios-workflow:
+    name: iOS Workflow
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.tudominio.arapp
+    scripts:
+      - name: Install npm dependencies
+        script: |
+          npm install
+      - name: Install Capacitor iOS
+        script: |
+          npx cap add ios
+      - name: Build iOS
+        script: |
+          xcodebuild archive \
+            -workspace ios/App/App.xcworkspace \
+            -scheme App \
+            -configuration Release \
+            -archivePath build/App.xcarchive
+      - name: Export IPA
+        script: |
+          xcodebuild -exportArchive \
+            -archivePath build/App.xcarchive \
+            -exportOptionsPlist exportOptions.plist \
+            -exportPath ./build
+    artifacts:
+      - build/App.ipa 
